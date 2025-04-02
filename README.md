@@ -78,7 +78,7 @@ You can also modify the configuration variables at the top of `PathOpt-Learning.
 
 Our approach to implementing path exploration using MCTS and value learning involved several key design decisions:
 
-1. **Graph Representation**: We used a NetworkX graph to represent the cities and roads between Charleston and Charlotte, with edges weighted by road distances. The visualization shows all possible roads as light gray connections, with important paths highlighted in color.
+1. **Graph Representation**: We used a NetworkX graph to represent the cities and roads between Charleston and Charlotte, with edges weighted by road distances. The visualization shows all possible roads as light gray connections, the shortest path in red, and the best path in blue. Delivery points are marked as green nodes.
 
 2. **MCTS Implementation**: Our MCTS algorithm follows the standard four steps:
    - Selection: Using UCB1 formula to balance exploration and exploitation
